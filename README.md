@@ -1,2 +1,2 @@
-# Tobiano
-A horse sim
+
+Tobiano

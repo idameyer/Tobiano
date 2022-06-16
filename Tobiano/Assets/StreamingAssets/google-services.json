@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208574102421",
+    "firebase_url": "https://tobiano-3bd53-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tobiano-3bd53",
+    "storage_bucket": "tobiano-3bd53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208574102421:android:8c0a28dca6cdeb4727d49c",
+        "android_client_info": {
+          "package_name": "com.google.firebase.tobiano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208574102421-mobabp8seckc0u7s4559kqc0g83e47ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.tobiano",
+            "certificate_hash": "0c806282226b077855f5fa07a4e54672eea6b77b"
+          }
+        },
+        {
+          "client_id": "208574102421-0gpkp4vfvfcmr6f5mahbd9i3ncp6tufj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqvijHLsPIQJP3yVUBFZOQ8-buRtjftZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208574102421-0gpkp4vfvfcmr6f5mahbd9i3ncp6tufj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208574102421-173s1rl0auqfbmguj9a716aiceifc24p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.google.firebase.tobiano"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
