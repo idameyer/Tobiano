@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 2131546787884911636}
+  ageText: {fileID: 0}
 --- !u!114 &2939197123005891312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,8 +198,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: focus, age, gender, grade, pedigree
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2b9297f241fce4657a01366bf808b395, type: 2}
+  m_sharedMaterial: {fileID: -1310980563604884643, guid: 2b9297f241fce4657a01366bf808b395, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -331,8 +332,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Horse Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2b9297f241fce4657a01366bf808b395, type: 2}
+  m_sharedMaterial: {fileID: -1310980563604884643, guid: 2b9297f241fce4657a01366bf808b395, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

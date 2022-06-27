@@ -12,8 +12,8 @@ public class HorseButtonClass : MonoBehaviour
 
     public void OpenHorseProfile()
     {
-        //UIManager.currentHorse = 
         SceneManager.LoadScene("HorseProfile");
+
     }
 
     public void NewHorseButton(string _name, string _horseID)

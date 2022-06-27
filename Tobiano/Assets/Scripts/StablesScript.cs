@@ -89,61 +89,12 @@ public class StablesScript : MonoBehaviour
       });
     }
 
-    //IEnumerator LoadzHorses()
+   
+    //public void LogOut()
     //{
-    //    var DBTask = DBreference.Child("horses").OrderByChild("age").GetValueAsync();
+    //    auth.SignOut();
+    //    SceneManager.LoadScene("Login");
+    //    Debug.Log("Signed out");
 
-    //    yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
-
-    //    if (DBTask.Exception != null)
-    //    {
-    //        Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
-    //    }
-    //    else
-    //    {
-    //        DataSnapshot snapshot = DBTask.Result;
-
-    //        foreach (Transform child in stablesScrollTransform.transform)
-    //        {
-    //            Destroy(child.gameObject);
-    //        }
-
-    //        //loop through every users UID
-    //        foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
-    //        {
-
-    //            string name = childSnapshot.Child("name").Value.ToString();
-    //            int age = int.Parse(childSnapshot.Child("age").Value.ToString());
-    //            string ownerID = childSnapshot.Child("ownerID").Value.ToString();
-
-    //            Debug.Log(name);
-
-    //            ////instantiate button
-    //            GameObject stablesElement = Instantiate(horseButton, stablesScrollTransform);
-    //            stablesElement.GetComponent<HorseButtonClass>().NewHorseButton(name);
-    //            newHorseButton.transform.SetParent(scoreboardContent.transform, false);
-
-    //            GameObject horseButton = Instantiate(horseButton, scoreboardContent);
-    //            horseElement.GetComponent<HorseElement>().NewHorseElement(ownerID, name, age);
-
-
-    //            ////instantiate new scoreboard elements
-    //            //GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContent);
-    //            //scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(name);
-
-    //            ////instantiate new scoreboard elements
-    //            //GameObject stablesElement = Instantiate(horseElement, scoreboardContent);
-    //            //stablesElement.GetComponent<HorseElement>().NewHorseElement(ownerID, name, age);
-    //        }
-    //    }
     //}
-
-
-    public void LogOut()
-    {
-        auth.SignOut();
-        SceneManager.LoadScene("Login");
-        Debug.Log("Signed out");
-
-    }
 }
