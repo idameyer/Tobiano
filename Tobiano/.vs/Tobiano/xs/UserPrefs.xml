@@ -1,12 +1,17 @@
 ﻿<Properties StartupConfiguration="{997D8241-06D8-091D-AF24-5AF8EEF82563}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Horse Profile/HPTabs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Horse.cs">
     <Files>
-      <File FileName="Assets/Scripts/Horse Profile/HPTabs.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/StablesScript.cs" Line="52" Column="6" />
+      <File FileName="Assets/Scripts/LoginScript.cs" Line="229" Column="21" />
+      <File FileName="Assets/Scripts/Shop/ShopScript.cs" Line="65" Column="9" />
+      <File FileName="Assets/Scripts/Horse.cs" Line="15" Column="20" />
+      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" Line="68" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,6 +29,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="139b0381-da93-4939-8c51-eb6d2d9734df" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="39088150-b217-44ad-9e1f-7e80193e1b41" />
 </Properties>

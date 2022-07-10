@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -25,4 +26,20 @@ public class UIManager : MonoBehaviour
     {
         
     }
+
+    public void StableButton()
+    {
+        SceneManager.LoadScene("Stables");
+    }
+
+    public void FarmButton()
+    {
+        SceneManager.LoadScene("Farm");
+    }
+
+    public void ShopButton()
+    {
+        SceneManager.LoadScene("Shop");
+    }
+
 }

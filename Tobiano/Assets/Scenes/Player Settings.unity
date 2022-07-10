@@ -130,6 +130,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 269189138}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2023775286}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FarmButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Farm
@@ -1141,6 +1153,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 269189138}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2023775286}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StableButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Stable
@@ -1344,7 +1368,7 @@ GameObject:
   - component: {fileID: 797729722}
   - component: {fileID: 797729721}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2336,6 +2360,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 269189138}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2023775286}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShopButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Shop
@@ -2453,6 +2489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2023775285}
   - component: {fileID: 2023775284}
+  - component: {fileID: 2023775286}
   m_Layer: 0
   m_Name: PlayerSettingsScript
   m_TagString: Untagged
@@ -2487,6 +2524,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023775286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023775283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f69cdd5eb2f44109d58401f2bdba57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2078361679
 GameObject:
   m_ObjectHideFlags: 0

@@ -1091,7 +1091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000026202975}
+  m_AnchoredPosition: {x: 0, y: -0.000010426011}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &742514084
@@ -1252,6 +1252,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1669095491}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 905171527}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StableButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Stable
@@ -1369,6 +1381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905171525}
   - component: {fileID: 905171526}
+  - component: {fileID: 905171527}
   m_Layer: 0
   m_Name: StablesScript
   m_TagString: Untagged
@@ -1408,6 +1421,18 @@ MonoBehaviour:
   stablesScroll: {fileID: 742514082}
   horseButton: {fileID: 1270373686828511627, guid: ee0758a1e7b77417cad424abca7c0a0e, type: 3}
   stablesScrollTransform: {fileID: 742514083}
+--- !u!114 &905171527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905171524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f69cdd5eb2f44109d58401f2bdba57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &913242272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1515,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 599298380}
   m_HandleRect: {fileID: 599298379}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1616,8 +1641,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 100141781}
   m_HandleRect: {fileID: 100141780}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0
+  m_Size: 0.99999183
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1903,6 +1928,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1669095491}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 905171527}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShopButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Shop
@@ -2392,6 +2429,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1669095491}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 905171527}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FarmButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Farm

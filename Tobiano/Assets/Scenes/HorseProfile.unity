@@ -622,6 +622,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774002093}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1962281107}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StableButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Stable
@@ -1515,6 +1527,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801403154}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1962281107}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StableButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888369, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Color.b
       value: 0.62352943
@@ -5403,6 +5427,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774002093}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1962281107}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FarmButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Farm
@@ -6869,6 +6905,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1774002093}
     m_Modifications:
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1962281107}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShopButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4526253887927888368, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4526253887927888382, guid: c91092fd5d99648f597345e8849ba9b1, type: 3}
       propertyPath: m_Name
       value: Shop
@@ -8291,6 +8339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962281106}
   - component: {fileID: 1962281105}
+  - component: {fileID: 1962281107}
   m_Layer: 0
   m_Name: HorseProfileScript
   m_TagString: Untagged
@@ -8326,6 +8375,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962281107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962281104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f69cdd5eb2f44109d58401f2bdba57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2028985048
 GameObject:
   m_ObjectHideFlags: 0

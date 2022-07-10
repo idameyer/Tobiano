@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HorseProfile.unity
     guid: 1eb929948199341038698bb3e54076ac
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: 136b7019ae9594309851fe1950e67577
+  - enabled: 1
+    path: Assets/Scenes/Admin.unity
+    guid: 054c0b2fb82d44c15b15e05ddaeab5ee
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 93ddee1a713594bdeaf695ed948d46ed
   m_configObjects: {}
