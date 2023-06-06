@@ -1,34 +1,14 @@
 ﻿<Properties StartupConfiguration="{997D8241-06D8-091D-AF24-5AF8EEF82563}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9d58da8d-762b-45de-80e9-aae22a2ccb60" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Library/Mobile Documents/com~apple~CloudDocs/Tobiano backups/Tobiano - May 5 - improving shop/Assets/Scripts/Farm/FieldsScript.cs">
+    <Files>
+      <File FileName="../../Library/Mobile Documents/com~apple~CloudDocs/Tobiano backups/Tobiano - May 5 - improving shop/Assets/Scripts/Farm/FieldsScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Horse.cs">
-    <Files>
-      <File FileName="Assets/Scripts/UIManager.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/StablesScript.cs" Line="52" Column="6" />
-      <File FileName="Assets/Scripts/LoginScript.cs" Line="229" Column="21" />
-      <File FileName="Assets/Scripts/Shop/ShopScript.cs" Line="65" Column="9" />
-      <File FileName="Assets/Scripts/Horse.cs" Line="15" Column="20" />
-      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" Line="68" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Tobiano" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="139b0381-da93-4939-8c51-eb6d2d9734df" />
-  <MultiItemStartupConfigurations />
 </Properties>
